@@ -6,8 +6,11 @@
     FROM `students`
     WHERE `date_of_birth` LIKE '1990%';
 
-# 2 Selezionare tuutti i corsi che valgono piuù di 10 crediti :
+# 2 Selezionare tuutti i corsi che valgono più di 10 crediti :
     -  479 corsi.
+    SELECT *
+    FROM `courses`
+    WHERE `cfu` > 10;
 
 # 3 Seleziona gli studenti che hanno più di 30 anni : 
      - 3646 stuenti.
