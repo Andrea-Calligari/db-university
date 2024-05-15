@@ -11,3 +11,6 @@
     
  # Selezionare tutti i corsi del primo semestre del primo anno di una qualsiasi corso di laurea :
      - I corsi di Biologia molecolare del primo semestre del primo anno  sono 3, invece, in un corso di  Laurea qualisiasi sono 286.
+
+# Selezionare tutti i corsi di laurea magistrale:
+    - 38 corsi di Laurea Magistrale.
