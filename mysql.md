@@ -2,6 +2,9 @@
 
 # 1 Selezionare tutti gli studenti nati nel 1990 : 
     - 160 studenti.
+    SELECT *
+    FROM `students`
+    WHERE `date_of_birth` LIKE '1990%';
 
 # 2 Selezionare tuutti i corsi che valgono piuù di 10 crediti :
     -  479 corsi.
