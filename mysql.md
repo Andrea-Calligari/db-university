@@ -2,18 +2,23 @@
 
 # 1 Selezionare tutti gli studenti nati nel 1990 : 
     - 160 studenti.
+    
     SELECT *
     FROM `students`
     WHERE `date_of_birth` LIKE '1990%';
 
 # 2 Selezionare tuutti i corsi che valgono più di 10 crediti :
     -  479 corsi.
+
     SELECT *
     FROM `courses`
     WHERE `cfu` > 10;
 
 # 3 Seleziona gli studenti che hanno più di 30 anni : 
      - 3646 stuenti.
+     SELECT * 
+    FROM `students`
+    WHERE YEAR(CURDATE()) - YEAR(`date_of_birth`) > 30;
     
 # 4 Selezionare tutti i corsi del primo semestre del primo anno di una qualsiasi corso di laurea :
      - I corsi di Biologia molecolare del primo semestre del primo anno  sono 3, invece, in un corso di  Laurea qualisiasi sono 286.
