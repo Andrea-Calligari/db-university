@@ -18,3 +18,5 @@
 # 6 Selezionare tutti gli appelli d'esame che avvengono nel pomeriggio (dopo le 14) del 20/06/2020:
     - Gli appelli d'esame dopo le 14 del 20/06/2020 sono 21.
 
+# Da quanti dipartimenti è composta l'università?:
+    - L'università è composta da 12 dipartimenti.
