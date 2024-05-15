@@ -20,3 +20,6 @@
 
 # Da quanti dipartimenti è composta l'università?:
     - L'università è composta da 12 dipartimenti.
+
+# Quanti sono gli insegnanti senza numero di cellulare?:
+    - Gli insegnanti senza numero di cellulare sono 50.
