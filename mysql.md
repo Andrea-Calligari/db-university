@@ -2,7 +2,7 @@
 
 # 1 Selezionare tutti gli studenti nati nel 1990 : 
     - 160 studenti.
-    
+
     SELECT *
     FROM `students`
     WHERE `date_of_birth` LIKE '1990%';
@@ -23,11 +23,21 @@
 # 4 Selezionare tutti i corsi del primo semestre del primo anno di una qualsiasi corso di laurea :
      - I corsi di Biologia molecolare del primo semestre del primo anno  sono 3, invece, in un corso di  Laurea qualisiasi sono 286.
 
+    SELECT * 
+    FROM `courses`
+    WHERE `period` = 'I semestre' AND `year`= 1;
+
+    SELECT * 
+    FROM `courses`
+    WHERE `period` = 'I semestre' AND `year`= 1 AND `degrees_id` = 2 ;
+
 # 5 Selezionare tutti i corsi di laurea magistrale:
     - 38 corsi di Laurea Magistrale.
 
+   
 # 6 Selezionare tutti gli appelli d'esame che avvengono nel pomeriggio (dopo le 14) del 20/06/2020:
     - Gli appelli d'esame dopo le 14 del 20/06/2020 sono 21.
+
 
 # Da quanti dipartimenti è composta l'università?:
     - L'università è composta da 12 dipartimenti.
