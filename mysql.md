@@ -19,6 +19,11 @@
      SELECT * 
     FROM `students`
     WHERE YEAR(CURDATE()) - YEAR(`date_of_birth`) > 30;
+
+
+
+
+    
     
 # 4 Selezionare tutti i corsi del primo semestre del primo anno di una qualsiasi corso di laurea :
      - I corsi di Biologia molecolare del primo semestre del primo anno  sono 3, invece, in un corso di  Laurea qualisiasi sono 286.
@@ -45,10 +50,14 @@
     FROM  `exams`
     WHERE `hour` > '14:00:00' AND `date` = '2020/06/20';
 
+    <!-- oppure -->
+
+    WHERE HOUR('hour') >= 14;
+
 # Da quanti dipartimenti è composta l'università?:
     - L'università è composta da 12 dipartimenti.
 
-    SELECT *
+    SELECT COUNT(*)
     FROM `departments`;
 
 # Quanti sono gli insegnanti senza numero di cellulare?:
